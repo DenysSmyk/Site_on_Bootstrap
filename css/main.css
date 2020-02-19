@@ -75,3 +75,26 @@ body, html{
     font-size: 4em;
     margin: 1em;
 }
+
+#fixed {
+    height: 400px;
+    border-top: 4px solid #f0f0f0;
+    border-bottom: 4px solid #f0f0f0;
+    background: url("../img/bg.jpg")no-repeat center center fixed;
+    background-blend-mode: multiply;
+    border-color: lightblue;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+#gifsBtn {
+    margin-bottom: 20px;
+}
+
+#gifs img {
+    max-width: 100%;
+    max-height: 200px;
+    margin-bottom: 20px;
+}
